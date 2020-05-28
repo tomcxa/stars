@@ -18,8 +18,4 @@ Star.defaultProps = {
     count: 0
 }
 
-Star.propTypes = {
-    count: PropTypes.number
-}
-
 export default Stars

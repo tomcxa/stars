@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types'
 import Stars from './components/Stars'
 
 function App() {
@@ -10,3 +11,7 @@ function App() {
 }
 
 export default App;
+
+App.propType = {
+  count: PropTypes.number
+}
